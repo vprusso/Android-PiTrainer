@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pi Trainer:"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Memorize Pi. Impress Girls."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" 
+        android:layout_gravity="center"/>
+    <ScrollView
+        android:id="@+id/svPi"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp">
+       
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bTrainer"
+                android:layout_width="fill_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_button"
+                android:text="Trainer"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+            
+    <Button
+        android:id="@+id/bMarathon"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:text="Marathon" 
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bMemorize"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="75dp"
+        android:text="Memorize" 
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF" />
+    
+     <Button
+        android:id="@+id/bAbout"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:text="About" 
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF" />
+
+     <com.google.ads.AdView
+         android:id="@+id/adMain"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         ads:adSize="BANNER"
+         ads:adUnitId="a1504253fbc9244"
+         ads:loadAdOnCreate="true" >
+     </com.google.ads.AdView>
+     
+     </LinearLayout>
+     </ScrollView>
+     
+     
+</LinearLayout>
