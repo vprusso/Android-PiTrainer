@@ -1,7 +1,7 @@
 PiTrainer
 ==========
 
-A simple Android application to help in memorizing some of the digits of the irrational number Pi.
+A simple Android application to help in memorizing some of the digits of the irrational number Pi. Can be downloaded from the GooglePlay store here: https://play.google.com/store/apps/details?id=captainhampton.pi.trainer&hl=en
 
 ![Android-PiTrainer](screenshots/logo.PNG)
 
